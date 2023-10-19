@@ -1,0 +1,177 @@
+.fundriser-page{
+
+    height: fit-content;
+    width: 100%;
+    padding: 15vh 2vw 10vh 2vw;
+}
+
+.fundriser-data-container{
+
+
+}
+
+.fundriser-banner-image{
+
+    width: 100%;
+    height: 60vh;
+    border-radius: 0.5rem;
+}
+
+.fundriser-title-desc h4{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.fundriser-title-desc p{
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.fundriser-applicant-data{
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+.fundriser-applicant-data span{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.fundriser-applicant-data span b{
+
+    font-weight: 600;
+    color:rgba(90, 92, 92, 0.489);
+}
+
+.fundriser-applicant-data span p{
+    color: rgba(40, 87, 129, 0.813);
+    
+}
+
+.fundriser-amount-status{
+
+
+}
+
+.fundriser-amount-status b{
+
+
+}
+
+.fundriser-amount-status span{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.fundriser-amount-status span p{
+
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.fundriser-amount-status span .progress{
+    width: 30vw;
+}
+
+.fundriser-amount-status span .progress .progress-bar{
+
+}
+
+.share-btn{
+
+    margin-top: 30px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0.5rem;
+    
+}
+
+.fundriser-images{
+    margin: 8vh 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fundriser-images img{
+
+    width: 30vw;
+    height: 50vh;
+    border-radius: 0.5rem;
+}
+
+.fundriser-data-container hr{
+
+    height: 2px;
+    color: rgb(181, 185, 185);
+}
+
+.fundriser-recent-transactions{
+
+
+}
+
+.fundriser-recent-transactions h3{
+
+    font-family: 'Poppins', sans-serif;
+    color: rgb(59, 58, 58);
+}
+
+.fundriser-donate-form{
+    width: 50%;
+    height: 8vh;
+    display: flex;
+    gap: 10px;
+}
+
+.recent-donations-container{
+
+
+}
+
+.recent-donations-container h4{
+
+    font-size: 1.2rem;
+    margin: 20px 0 15px;
+}
+
+.recent-donations{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.recent-donation{
+
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    background-color: rgba(240, 248, 255, 0.516);
+    padding: 10px 30px;
+    border-radius: 0.8rem;
+    border: 1px solid #5a585830;
+    font-family: 'Poppins', sans-serif;
+}
+
+.recent-donation span{
+
+
+}
+
+.recent-donation span b{
+    font-size: 0.8rem;
+    color: rgb(172, 172, 172);
+}
+
+.recent-donation span p{
+
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    color: rgb(62, 70, 77);
+}

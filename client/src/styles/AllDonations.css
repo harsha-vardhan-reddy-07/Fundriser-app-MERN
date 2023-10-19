@@ -1,0 +1,62 @@
+.all-donations-page{
+
+    height: fit-content;
+    width: 100%;
+    padding: 13vh 3vw 0vh 3vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.all-donations-page h3{
+    font-size: 1.6rem;
+    margin: 20px 0 15px;
+}
+
+.all-donations{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.all-donations::-webkit-scrollbar {
+    display: none;
+}
+
+.all-donation-card{
+
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    justify-content: space-between;
+    background-color: rgba(231, 239, 236, 0.416);
+    border-radius: 0.8rem;
+    padding: 2vh 2vw;
+}
+
+.all-donation-card span{
+
+    
+}
+
+.all-donation-card span b{
+
+    font-weight: 600;
+    color: rgb(32, 97, 124);
+    font-size: 0.8rem;
+}
+
+.all-donation-card span p{
+
+    margin: 0;
+    color: rgb(36, 132, 173);
+    font-size: 0.9rem;
+}
+
+.all-donation-card button{
+
+    padding: 0 20px;
+    height: 80%;
+    font-size: 0.7rem;
+}

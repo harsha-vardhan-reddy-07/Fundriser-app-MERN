@@ -1,0 +1,108 @@
+.new-fundriser-page{
+
+    height: fit-content;
+    padding: 15vh 0 10vh 0;
+}
+
+.new-fundriser-card{
+
+
+    width: 60%;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 5vh 3vw;
+    margin-left: 20%;
+    border-radius: 0.5rem;
+    
+}
+
+.new-fundriser-card h3{
+
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.new-fundriser-card .progress{
+    height: 10px;
+
+}
+
+
+.new-fundriser-form{
+
+    margin-top: 3vh;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.new-fundriser-form textarea{
+
+    min-height: 16vh !important;
+}
+
+.new-fundriser-form input{
+
+    color: #474444;
+}
+
+.new-fundriser-form label{
+
+    color: #474444bd;
+}
+
+.new-fundriser-form .new-fund-span-3{
+    display: flex;
+    justify-content: space-between;
+}
+.new-fundriser-form .new-fund-span-2{
+    display: flex;
+    justify-content: space-between;
+}
+.new-fundriser-form .new-fund-span-2 div{
+    width: 49% !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-fundriser-btns{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.new-fundriser-btns button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 6px;
+    width: 9vw;
+    
+}
+
+.new-fundriser-blueBtn{
+    background-color: #258abd00;
+    border: 1.5px solid #1756767e;
+    color: #258abddc;
+}
+
+.new-fundriser-blueBtn:hover{
+    background-color: #258abddc;
+    border: 1.5px solid #da4a4a43;
+    color: #ffffffee;
+}
+
+.new-fundriser-orangeBtn{
+    background-color: #c9ced200;
+    border: 1.5px solid #ef7f5d;
+    color: #ef7f5d;
+}
+
+.new-fundriser-orangeBtn:hover{
+    background-color: #ef7f5d;
+    border: 1.5px solid #da4a4a43;
+    color: #ffffffee;
+}
